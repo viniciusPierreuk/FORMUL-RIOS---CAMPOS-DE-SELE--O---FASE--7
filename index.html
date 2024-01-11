@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <h1>Formulários</h1>
+
+    <form id="dados" name="dados" method="post" action="">
+      
+        <fieldset>
+            <legend>Select</legend>
+            <label for="atuacao">Área de Atuação</label>
+            <select name="atuacao" id="atuacao"> 
+                <option disabled selected value="0">Selecione sua opção</option>
+                <option value="1">Front-and</option>
+                <option value="2">Back-and</option>
+                <option value="3">Banco de Dados</option>
+                <option value="4">Gestão de Projetos</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datalist</legend>
+            <input list="linguagens" id="lista-linguagens">
+            <datalist id="linguagens">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="Java">
+                <option value="JavaScript">
+                <option value="TypeScript">
+            </datalist>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
